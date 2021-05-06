@@ -1,0 +1,7 @@
+ /* Theme 3 Purple */
+ :root {
+     --theme-3-color-primary: #312E81;
+     --theme-3-text-color: #A4B3FB;
+     --theme-3-border-color: #6e71b8;
+     --theme-3-hover-color: #4338CA;
+ }

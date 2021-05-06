@@ -1,0 +1,7 @@
+ /* Theme 1 Dark */
+:root {
+  --theme-1-color-primary: #111827;
+  --theme-1-text-color: #9299A5;
+  --theme-1-border-color: rgb(103, 103, 121);
+  --theme-1-hover-color: #343c47;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meny Övning</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+    <div class="site-container">
+        <div class="menu-container">
+            <div class="the-app border">
+                <i class="bi bi-box"></i>
+                <a class="a-tag" href="#">The App</a>
+            </div>
+            <div>
+                <i class="bi bi-house-door"></i>
+                <a class="a-tag" href="#">Dashboard</a>
+            </div>
+            <div>
+                <i class="bi bi-search"></i>
+                <a class="a-tag" href="#">Search</a>
+            </div>
+            <div>
+                <i class="bi bi-file-bar-graph"></i>
+                <a class="a-tag" href="#">Insights</a>
+            </div>
+            <div class="docs border">
+                <i class="bi bi-file-earmark"></i>
+                <a class="a-tag" href="#">Docs</a>
+            </div>
+            <div>
+                <i class="bi bi-cart"></i>
+                <a class="a-tag" href="#">Products</a>
+            </div>
+            <div>
+                <i class="bi bi-sliders"></i>
+                <a class="a-tag" href="#">Settings</a>
+            </div>
+            <div>
+                <i class="bi bi-chat-text"></i>
+                <a class="a-tag" href="#">Messages</a>
+            </div>
+            <div>
+
+                <!-- Button JS -->
+                <button id="btnToggle" class="bi bi-toggle-off" onclick="shrinkAndGrowMenuOnInput()">
+                </button>
+                <a class="a-tag" href="#">Toggle size</a>
+                <button id="btnToggleBack" class="btnExpand" onclick="openNav()"><i class="bi bi-arrows-angle-expand"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
